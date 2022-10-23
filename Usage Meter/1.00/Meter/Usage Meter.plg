@@ -1,0 +1,89 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: Usage Meter - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "rc.exe /l 0x409 /fo"Release/Usage Meter.res" /d "NDEBUG" "D:\Vajira\Programing\C++\Usage Meter\Usage Meter\Meter\Usage Meter.rc"" 
+Creating temporary file "D:\Nerotemp\RSP155.tmp" with contents
+[
+/nologo /MT /W3 /GX /O2 /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_MBCS" /FR"Release/" /Fp"Release/Usage Meter.pch" /Yu"stdafx.h" /Fo"Release/" /Fd"Release/" /FD /c 
+"D:\Vajira\Programing\C++\Usage Meter\Usage Meter\Meter\MainDlg.cpp"
+"D:\Vajira\Programing\C++\Usage Meter\Usage Meter\Meter\MyClientPort.cpp"
+"D:\Vajira\Programing\C++\Usage Meter\Usage Meter\Meter\MyCounter.cpp"
+"D:\Vajira\Programing\C++\Usage Meter\Usage Meter\Meter\MyLogFile.cpp"
+"D:\Vajira\Programing\C++\Usage Meter\Usage Meter\Meter\MyMonthSyncro.cpp"
+"D:\Vajira\Programing\C++\Usage Meter\Usage Meter\Meter\MyRegistry.cpp"
+"D:\Vajira\Programing\C++\Usage Meter\Usage Meter\Meter\MyServerPort.cpp"
+"D:\Vajira\Programing\C++\Usage Meter\Usage Meter\Meter\MyTimeMath.cpp"
+"D:\Vajira\Programing\C++\Usage Meter\Usage Meter\Meter\MyUser.cpp"
+"D:\Vajira\Programing\C++\Usage Meter\Usage Meter\Meter\Usage Meter.cpp"
+]
+Creating command line "cl.exe @D:\Nerotemp\RSP155.tmp" 
+Creating temporary file "D:\Nerotemp\RSP156.tmp" with contents
+[
+/nologo /MT /W3 /GX /O2 /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_MBCS" /FR"Release/" /Fp"Release/Usage Meter.pch" /Yc"stdafx.h" /Fo"Release/" /Fd"Release/" /FD /c 
+"D:\Vajira\Programing\C++\Usage Meter\Usage Meter\Meter\StdAfx.cpp"
+]
+Creating command line "cl.exe @D:\Nerotemp\RSP156.tmp" 
+Creating temporary file "D:\Nerotemp\RSP157.tmp" with contents
+[
+/nologo /subsystem:windows /incremental:no /pdb:"Release/Meter.pdb" /machine:I386 /out:"Release/Meter.exe" 
+".\Release\MainDlg.obj"
+".\Release\MyClientPort.obj"
+".\Release\MyCounter.obj"
+".\Release\MyLogFile.obj"
+".\Release\MyMonthSyncro.obj"
+".\Release\MyRegistry.obj"
+".\Release\MyServerPort.obj"
+".\Release\MyTimeMath.obj"
+".\Release\MyUser.obj"
+".\Release\StdAfx.obj"
+".\Release\Usage Meter.obj"
+".\Release\Usage Meter.res"
+]
+Creating command line "link.exe @D:\Nerotemp\RSP157.tmp"
+<h3>Output Window</h3>
+Compiling resources...
+Compiling...
+StdAfx.cpp
+Compiling...
+MainDlg.cpp
+MyClientPort.cpp
+MyCounter.cpp
+MyLogFile.cpp
+MyMonthSyncro.cpp
+MyRegistry.cpp
+MyServerPort.cpp
+MyTimeMath.cpp
+MyUser.cpp
+Usage Meter.cpp
+Generating Code...
+Linking...
+Creating temporary file "D:\Nerotemp\RSP159.tmp" with contents
+[
+/nologo /o"Release/Usage Meter.bsc" 
+".\Release\StdAfx.sbr"
+".\Release\MainDlg.sbr"
+".\Release\MyClientPort.sbr"
+".\Release\MyCounter.sbr"
+".\Release\MyLogFile.sbr"
+".\Release\MyMonthSyncro.sbr"
+".\Release\MyRegistry.sbr"
+".\Release\MyServerPort.sbr"
+".\Release\MyTimeMath.sbr"
+".\Release\MyUser.sbr"
+".\Release\Usage Meter.sbr"]
+Creating command line "bscmake.exe @D:\Nerotemp\RSP159.tmp"
+Creating browse info file...
+<h3>Output Window</h3>
+
+
+
+<h3>Results</h3>
+Meter.exe - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>

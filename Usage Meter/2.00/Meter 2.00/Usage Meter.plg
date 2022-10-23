@@ -1,0 +1,109 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: Usage Meter - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "rc.exe /l 0x409 /fo"Debug/Usage Meter.res" /d "_DEBUG" "D:\Vajira\Programing\C++\Usage Meter\2.00\Meter 2.00\Usage Meter.rc"" 
+Creating temporary file "D:\Nerotemp\RSP15.tmp" with contents
+[
+/nologo /MTd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_MBCS" /FR"Debug/" /Fp"Debug/Usage Meter.pch" /Yu"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"D:\Vajira\Programing\C++\Usage Meter\2.00\Meter 2.00\DlgBeepSetting.cpp"
+"D:\Vajira\Programing\C++\Usage Meter\2.00\Meter 2.00\DlgPath.cpp"
+"D:\Vajira\Programing\C++\Usage Meter\2.00\Meter 2.00\MainDlg.cpp"
+"D:\Vajira\Programing\C++\Usage Meter\2.00\Meter 2.00\MyBeep.cpp"
+"D:\Vajira\Programing\C++\Usage Meter\2.00\Meter 2.00\MyClientPort.cpp"
+"D:\Vajira\Programing\C++\Usage Meter\2.00\Meter 2.00\MyCounter.cpp"
+"D:\Vajira\Programing\C++\Usage Meter\2.00\Meter 2.00\MyListView.cpp"
+"D:\Vajira\Programing\C++\Usage Meter\2.00\Meter 2.00\MyLogFile.cpp"
+"D:\Vajira\Programing\C++\Usage Meter\2.00\Meter 2.00\MyLogFolder.cpp"
+"D:\Vajira\Programing\C++\Usage Meter\2.00\Meter 2.00\MyMonthSyncro.cpp"
+"D:\Vajira\Programing\C++\Usage Meter\2.00\Meter 2.00\MyRegistry.cpp"
+"D:\Vajira\Programing\C++\Usage Meter\2.00\Meter 2.00\MyServerPort.cpp"
+"D:\Vajira\Programing\C++\Usage Meter\2.00\Meter 2.00\MyTimeMath.cpp"
+"D:\Vajira\Programing\C++\Usage Meter\2.00\Meter 2.00\MyUser.cpp"
+"D:\Vajira\Programing\C++\Usage Meter\2.00\Meter 2.00\Usage Meter.cpp"
+]
+Creating command line "cl.exe @D:\Nerotemp\RSP15.tmp" 
+Creating temporary file "D:\Nerotemp\RSP16.tmp" with contents
+[
+/nologo /MTd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_MBCS" /FR"Debug/" /Fp"Debug/Usage Meter.pch" /Yc"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"D:\Vajira\Programing\C++\Usage Meter\2.00\Meter 2.00\StdAfx.cpp"
+]
+Creating command line "cl.exe @D:\Nerotemp\RSP16.tmp" 
+Creating temporary file "D:\Nerotemp\RSP17.tmp" with contents
+[
+/nologo /subsystem:windows /incremental:yes /pdb:"Debug/Meter Debug.pdb" /debug /machine:I386 /out:"Debug/Meter Debug.exe" /pdbtype:sept 
+".\Debug\DlgBeepSetting.obj"
+".\Debug\DlgPath.obj"
+".\Debug\MainDlg.obj"
+".\Debug\MyBeep.obj"
+".\Debug\MyClientPort.obj"
+".\Debug\MyCounter.obj"
+".\Debug\MyListView.obj"
+".\Debug\MyLogFile.obj"
+".\Debug\MyLogFolder.obj"
+".\Debug\MyMonthSyncro.obj"
+".\Debug\MyRegistry.obj"
+".\Debug\MyServerPort.obj"
+".\Debug\MyTimeMath.obj"
+".\Debug\MyUser.obj"
+".\Debug\StdAfx.obj"
+".\Debug\Usage Meter.obj"
+".\Debug\Usage Meter.res"
+]
+Creating command line "link.exe @D:\Nerotemp\RSP17.tmp"
+<h3>Output Window</h3>
+Compiling resources...
+Compiling...
+StdAfx.cpp
+Compiling...
+DlgBeepSetting.cpp
+DlgPath.cpp
+MainDlg.cpp
+MyBeep.cpp
+MyClientPort.cpp
+MyCounter.cpp
+MyListView.cpp
+MyLogFile.cpp
+MyLogFolder.cpp
+MyMonthSyncro.cpp
+MyRegistry.cpp
+MyServerPort.cpp
+MyTimeMath.cpp
+MyUser.cpp
+Usage Meter.cpp
+Generating Code...
+Linking...
+Creating temporary file "D:\Nerotemp\RSP19.tmp" with contents
+[
+/nologo /o"Debug/Usage Meter.bsc" 
+".\Debug\StdAfx.sbr"
+".\Debug\DlgBeepSetting.sbr"
+".\Debug\DlgPath.sbr"
+".\Debug\MainDlg.sbr"
+".\Debug\MyBeep.sbr"
+".\Debug\MyClientPort.sbr"
+".\Debug\MyCounter.sbr"
+".\Debug\MyListView.sbr"
+".\Debug\MyLogFile.sbr"
+".\Debug\MyLogFolder.sbr"
+".\Debug\MyMonthSyncro.sbr"
+".\Debug\MyRegistry.sbr"
+".\Debug\MyServerPort.sbr"
+".\Debug\MyTimeMath.sbr"
+".\Debug\MyUser.sbr"
+".\Debug\Usage Meter.sbr"]
+Creating command line "bscmake.exe @D:\Nerotemp\RSP19.tmp"
+Creating browse info file...
+<h3>Output Window</h3>
+
+
+
+<h3>Results</h3>
+Meter Debug.exe - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>

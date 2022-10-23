@@ -1,0 +1,109 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: Usage Meter 3 - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "rc.exe /l 0x409 /fo"Release/Usage Meter 3.res" /d "NDEBUG" "D:\Vajira\Programing\C++\Usage Meter\Non MFC\Meter 3.00\Usage Meter 3.rc"" 
+Creating temporary file "E:\Temp\RSP66.tmp" with contents
+[
+/nologo /ML /W3 /GX /O2 /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_MBCS" /FR"Release/" /Fp"Release/Usage Meter 3.pch" /Yu"stdafx.h" /Fo"Release/" /Fd"Release/" /FD /c 
+"D:\Vajira\Programing\C++\Usage Meter\Non MFC\Meter 3.00\MyBeepDlg.cpp"
+"D:\Vajira\Programing\C++\Usage Meter\Non MFC\Meter 3.00\MyClientPort.cpp"
+"D:\Vajira\Programing\C++\Usage Meter\Non MFC\Meter 3.00\MyCounter.cpp"
+"D:\Vajira\Programing\C++\Usage Meter\Non MFC\Meter 3.00\MyDate.cpp"
+"D:\Vajira\Programing\C++\Usage Meter\Non MFC\Meter 3.00\MyEventLog.cpp"
+"D:\Vajira\Programing\C++\Usage Meter\Non MFC\Meter 3.00\MyGlobal.cpp"
+"D:\Vajira\Programing\C++\Usage Meter\Non MFC\Meter 3.00\MyListView.cpp"
+"D:\Vajira\Programing\C++\Usage Meter\Non MFC\Meter 3.00\MyLogFile.cpp"
+"D:\Vajira\Programing\C++\Usage Meter\Non MFC\Meter 3.00\MyLogPath.cpp"
+"D:\Vajira\Programing\C++\Usage Meter\Non MFC\Meter 3.00\MyMainWnd.cpp"
+"D:\Vajira\Programing\C++\Usage Meter\Non MFC\Meter 3.00\MyRegistry.cpp"
+"D:\Vajira\Programing\C++\Usage Meter\Non MFC\Meter 3.00\MyServerPort.cpp"
+"D:\Vajira\Programing\C++\Usage Meter\Non MFC\Meter 3.00\MyString.cpp"
+"D:\Vajira\Programing\C++\Usage Meter\Non MFC\Meter 3.00\MyUser.cpp"
+"D:\Vajira\Programing\C++\Usage Meter\Non MFC\Meter 3.00\Usage Meter 3.cpp"
+]
+Creating command line "cl.exe @E:\Temp\RSP66.tmp" 
+Creating temporary file "E:\Temp\RSP67.tmp" with contents
+[
+/nologo /ML /W3 /GX /O2 /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_MBCS" /FR"Release/" /Fp"Release/Usage Meter 3.pch" /Yc"stdafx.h" /Fo"Release/" /Fd"Release/" /FD /c 
+"D:\Vajira\Programing\C++\Usage Meter\Non MFC\Meter 3.00\StdAfx.cpp"
+]
+Creating command line "cl.exe @E:\Temp\RSP67.tmp" 
+Creating temporary file "E:\Temp\RSP68.tmp" with contents
+[
+kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib Wininet.lib /nologo /subsystem:windows /incremental:no /pdb:"Release/UsageMeter3.pdb" /machine:I386 /out:"C:\Program Files\Usage Meter\UsageMeter3.exe" 
+".\Release\MyBeepDlg.obj"
+".\Release\MyClientPort.obj"
+".\Release\MyCounter.obj"
+".\Release\MyDate.obj"
+".\Release\MyEventLog.obj"
+".\Release\MyGlobal.obj"
+".\Release\MyListView.obj"
+".\Release\MyLogFile.obj"
+".\Release\MyLogPath.obj"
+".\Release\MyMainWnd.obj"
+".\Release\MyRegistry.obj"
+".\Release\MyServerPort.obj"
+".\Release\MyString.obj"
+".\Release\MyUser.obj"
+".\Release\StdAfx.obj"
+".\Release\Usage Meter 3.obj"
+".\Release\Usage Meter 3.res"
+]
+Creating command line "link.exe @E:\Temp\RSP68.tmp"
+<h3>Output Window</h3>
+Compiling resources...
+Compiling...
+StdAfx.cpp
+Compiling...
+MyBeepDlg.cpp
+MyClientPort.cpp
+MyCounter.cpp
+MyDate.cpp
+MyEventLog.cpp
+MyGlobal.cpp
+MyListView.cpp
+MyLogFile.cpp
+MyLogPath.cpp
+MyMainWnd.cpp
+MyRegistry.cpp
+MyServerPort.cpp
+MyString.cpp
+MyUser.cpp
+Usage Meter 3.cpp
+Generating Code...
+Linking...
+Creating temporary file "E:\Temp\RSP6A.tmp" with contents
+[
+/nologo /o"Release/Usage Meter 3.bsc" 
+".\Release\StdAfx.sbr"
+".\Release\MyBeepDlg.sbr"
+".\Release\MyClientPort.sbr"
+".\Release\MyCounter.sbr"
+".\Release\MyDate.sbr"
+".\Release\MyEventLog.sbr"
+".\Release\MyGlobal.sbr"
+".\Release\MyListView.sbr"
+".\Release\MyLogFile.sbr"
+".\Release\MyLogPath.sbr"
+".\Release\MyMainWnd.sbr"
+".\Release\MyRegistry.sbr"
+".\Release\MyServerPort.sbr"
+".\Release\MyString.sbr"
+".\Release\MyUser.sbr"
+".\Release\Usage Meter 3.sbr"]
+Creating command line "bscmake.exe @E:\Temp\RSP6A.tmp"
+Creating browse info file...
+<h3>Output Window</h3>
+
+
+
+<h3>Results</h3>
+UsageMeter3.exe - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>
